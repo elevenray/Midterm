@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Midterm</title>
+</head>
+
+<body class="container">
+  <header>
+    <h1>Midterm Form</h1>
+  </header>
+  <section>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form data ="form">
+          <div class="form-group">
+            <label for="FirstName">First Name: </label>
+            <input class="form-control" name="first" id="FirstName" autofocus>
+          </div>
+
+          <div class="form-group">
+            <label for="LastName">Last Name: </label>
+            <input class="form-control" name="last" id="LastName" value="">
+          </div>
+
+          <div class="form-group">
+            <label for="emailAddress">Email Address: </label>
+            <input class="form-control" type="email" name="email" id="emailAddress" value="">
+          </div>
+
+          <div class="radio">
+            <label for="Major"> Major: </label>
+            <label>
+              <input type="radio" name="size" value="CS">
+              CS
+            </label>
+            <label>
+              <input type="radio" name="size" value="CSCE" checked>
+              CSCE
+            </label>
+            <label>
+              <input type="radio" name="size" value="MATH">
+              MATH
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="reset" class="btn btn-default">Reset</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
